@@ -1,0 +1,322 @@
+/* 该网站中多个网页相同模块的重复样式，header footer */
+/* 快捷导航样式 */
+.header .shortcut{
+	height: 52px;
+	background-color: #333333;
+}
+.header ul{
+    float: right;
+}
+.header .shortcut li{
+    display: inline-block;
+    border-right: 1px solid #666;
+    margin-top: 15px;
+}
+.header .shortcut li a{
+    color: #dcdcdc; 
+    padding:15px;
+}
+.header .shortcut li:last-child{
+    border-right: 0px
+}
+.header .shortcut li a span{
+    position: relative;
+    top:2px;
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+	height: 17px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -69px;
+}
+
+.header .nav{
+    height: 130px;
+    background-color: #fff;
+}
+/* logo搜索引擎优化 */
+.header .nav h1 a{
+    float: left;
+    margin: 30px 25px;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    /* 让h1字不见 */
+    font-size: 0;
+}
+
+.header .nav ul{
+    float: right;
+}
+.header .nav li{
+    display: inline-block;
+    margin: 58px 20px;
+}
+.header .nav li:first-child{
+    margin-left: 10px;
+}
+.header .nav li:last-child{
+    margin-left: 45px;
+}
+.header .nav li a{
+    color: #333333;
+    padding: 8px 0;
+}
+.header .nav li>a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+.header .nav li .search_bar{
+    width: 172px;
+	height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+.header .nav li .search_bar .search_icon{
+    display: inline-block;  
+    width: 18px;
+    height: 18px;    
+    background: url(../images/sprites.png) no-repeat;
+    background-position: -79px -70px;
+    vertical-align:middle;
+}
+.header .nav li .search_bar input{
+    display: inline-block;
+    margin-left: 10px;
+    width: 140px;
+    height: 28px;
+    border: 0 solid #000;
+}
+.header .nav li .search_bar input::placeholder{
+    font-size: 14px;
+	color: #cccccc;
+}
+.header .nav li div{
+    display: inline-block;
+}
+.header .nav li .sc{
+    position: relative;
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+}
+.header .nav li .sc a{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -70px;
+    vertical-align:middle;
+}
+.header .nav li .sc .item_num{
+    position: absolute;
+    top:-5px;
+    right: -12px;
+    width: 20px;
+	height: 15px;
+	background-color: #e26237;
+	border-radius: 8px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    line-height: 15px;
+}
+
+.footer .box1{
+    height: 302px;
+    background-color: #fff;
+}
+
+.footer .box1 dl{
+    display: inline-block;
+    width: 192px;
+    height: 143px;
+    margin: 79px 58px; 
+}
+.footer .box1 dt{
+    display: block;
+    color: #999;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.footer .box1 dd{
+    float: left;
+    width: 93px;
+	height: 92px;
+	border: solid 1px #eeeeee;
+    margin-left:3px;
+    text-align: center;
+}
+.footer .box1 dd a{
+    display: inline-block;
+    width: 93px;
+	height: 92px;
+    font-size: 14px;
+    color: #999;
+}
+.footer .box1 dd span{
+    display: block;
+    margin: 22px 32px 5px;
+    width: 38px;
+    height: 35px;
+}
+.footer span.ask_us{
+    background-image: url(../images/sprites.png);
+    background-position: -249px -69px;
+    opacity: 0.5;
+}
+.footer .box1 dd:hover span.ask_us{
+    background-image: url(../images/sprites.png);
+    background-position: -204px -69px;
+    opacity: 1;
+}
+.footer span.report{
+    background-image: url(../images/sprites.png);
+    background-position: -350px -69px;
+    opacity: 0.5;
+}
+.footer .box1 dd:hover span.report{
+    background-image: url(../images/sprites.png);
+    background-position: -300px -69px;
+    opacity: 1;
+}
+.footer span.wechat{
+    background-image: url(../images/sprites.png);
+    background-position: -249px -14px;
+}
+.footer .box1 dd:hover span.wechat{
+    background-image: url(../images/sprites.png);
+    background-position: -204px -14px;
+}
+.footer span.weibo{
+    background-image: url(../images/sprites.png);
+    background-position: -349px -14px;
+}
+.footer .box1 dd:hover span.weibo{
+    background-image: url(../images/sprites.png);
+    background-position: -299px -14px;
+}
+.footer .box1 dl.download_APP{
+    width: 241px;
+	height: 156px;
+}
+.footer .box1 dd.code{
+    width: 116px;
+    height: 116px;
+    background-image: url(../images/code.png);
+    background-size: 105px 103px;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+}
+.footer .box1 dd.intro{
+    margin-left: 30px;
+    border: 0;
+    width: 84px;
+    height: 44px;
+    font-size: 14px;
+    color: #999;
+    line-height: 22px;
+    text-align: left;
+
+}
+.footer .box1 dd.download{
+    margin-top: 14px;
+    margin-left: 30px;
+    width: 92px;
+	height: 32px;
+	background-color: #27ba9b;
+}
+.footer .box1 dd.download a{
+    width: 92px;
+	height: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+}
+
+
+.footer .box1 dl.tel{
+    margin-left: 0;
+    margin-right: 76px;
+    float: right;
+    width: 160px;
+	height: 122px;
+}
+.footer .box1 dd.tel_num{
+    margin-top: 23px;
+    margin-bottom: 17px;
+    border: 0;
+    width: 160px;
+	height: 17px;
+    font-size: 22px;
+    color: #666666;
+}
+.footer .box1 dd.service_time{
+    border: 0;
+    width: 159px;
+	height: 14px;
+    font-size: 15px;
+    color: #999;
+}
+.footer .box2{
+    background-color: #333;
+    height: 342px;
+}
+.footer .box2 .wrapper{
+    width: 1393px;
+}
+.footer .box2 .top{
+    height: 173px;
+    border-bottom: 3px solid #434343;
+}
+.footer .box2 .top li{
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 298px;
+    width: 195px;
+	height: 58px;
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 58px;
+    text-align: right;
+}
+.footer .box2 .top li::before{
+    display: inline-block;
+    margin-right: 19px;
+    margin-top: -4px;
+    content: '';
+    width: 58px;
+    height: 58px;
+    vertical-align: middle;
+    background-image: url(../images/sprites.png);
+}
+.footer .box2 .top li:first-child{
+    margin-left: 135px;
+}
+.footer .box2 .top li:last-child{
+    margin-right: 0
+}
+.footer .box2 .top li:nth-child(2)::before{
+    background-image: url(../images/sprites.png);
+    background-position: -64px 0;
+}
+.footer .box2 .top li:nth-child(3)::before{
+    background-image: url(../images/sprites.png);
+    background-position: -129px 0;
+}
+.footer .box2 .buttom{
+    font-size: 14px;
+    color: #999999;
+}
+.footer .box2 .buttom p{
+    margin-top: 20px;
+    text-align: center;
+}
+.footer .box2 .buttom a{
+    display:inline-block;
+    margin-top: 21px;
+    font-size: 14px;
+    color: #999999;
+}

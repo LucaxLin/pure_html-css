@@ -1,0 +1,226 @@
+/* 首页样式 */
+
+
+/* banner */
+
+.content .banner {
+    position: relative;
+    height: 500px;
+}
+
+.content .banner .banner_imgs img {
+    position: absolute;
+}
+
+.content .banner ol {
+    position: absolute;
+    bottom: 31px;
+    left: 680px;
+    height: 10px;
+}
+
+.content .banner ol li {
+    display: inline-block;
+    margin-right: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .43);
+    cursor: pointer;
+}
+
+.content .banner ol li.current {
+    background-color: #fff;
+}
+
+.content .banner .aside {
+    position: absolute;
+    width: 251px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content .banner .aside li {
+    width: 251px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.content .banner .aside li:hover {
+    background-color: #27ba9b;
+}
+
+.content .banner .aside li a {
+    color: #fff;
+    line-height: 50px;
+}
+
+.content .banner .aside li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.content .banner .aside li dt,
+.content .banner .aside li dd {
+    display: inline-block;
+}
+
+.content .banner .aside li dt {
+    margin-left: 36px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.content .banner .aside li dt a {
+    width: 251px;
+    height: 50px;
+}
+
+.content .banner .aside li dd a {
+    margin-right: 7px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.content .banner .aside dl::after {
+    float: right;
+    margin-right: 19px;
+    content: '>';
+    line-height: 50px;
+    font-size: 11px;
+    color: white;
+}
+
+.content .banner .arror_left {
+    position: absolute;
+    top: 228px;
+    left: 260px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(../images/sprites.png);
+    background-position: 13px -60px;
+}
+
+.content .banner .arror_right {
+    position: absolute;
+    top: 228px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(../images/sprites.png);
+    background-position: -22px -60px;
+}
+
+.content .banner .arror_left,
+.content .banner .arror_right {
+    transition: all 0.5s;
+}
+
+.content .banner .arror_left:hover,
+.content .banner .arror_right:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content .white {
+    background-color: white;
+}
+
+.content .model .title {
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 37px;
+    height: 29px;
+}
+
+.content .model .title h2 a {
+    float: left;
+    margin-right: 34px;
+    font-size: 29px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 29px;
+}
+
+.content .model .desc {
+    float: left;
+    font-size: 16px;
+    color: #999999;
+}
+
+.content .model .title .more a {
+    float: right;
+    color: #999999;
+}
+
+.content .model .title .more a::after {
+    margin-left: 13px;
+    content: '>';
+    color: #999999;
+    font-size: 12px;
+}
+
+.content .model .product_box {
+    float: left;
+    margin-right: 8px;
+    width: 304px;
+    height: 405px;
+    background-color: #f0f9f4;
+}
+
+.content .model .product_box:last-child {
+    margin-right: 0;
+}
+
+.content .model .product_box img {
+    width: 100%;
+}
+
+.content .model .product_box .product_name h3 {
+    margin-top: 22px;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.content .model .product_box .price h3 {
+    margin-top: 19px;
+    height: 18px;
+    text-align: center;
+    font-size: 23px;
+    color: #9a2e1f;
+}
+
+.content .model .product_box .desc {
+    width: 100%;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.content .model .title .arror_left {
+    position: absolute;
+    top: 37px;
+    right: 35px;
+    width: 20px;
+    height: 20px;
+    background-color: #e2e2e2;
+    background-image: url(../images/sprites.png);
+    background-position: 13px -60px;
+}
+
+.content .model .title .arror_right {
+    position: absolute;
+    top: 37px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: #e2e2e2;
+    background-image: url(../images/sprites.png);
+    background-position: -22px -60px;
+}
